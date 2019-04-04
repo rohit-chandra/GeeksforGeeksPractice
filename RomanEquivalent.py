@@ -24,7 +24,7 @@ def write_roman(num):
             x, y = divmod(num, r)
             yield roman[r] * x
             num -= (r * x)
-            if num <= 0:
+git             if num <= 0:
                 break
 
     return "".join([a for a in roman_num(num)])
