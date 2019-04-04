@@ -16,7 +16,6 @@ for i in range(testcase):
             print(j)
             k = k+1
             break
-
-
+            
     if k == -1:
         print(-1)
